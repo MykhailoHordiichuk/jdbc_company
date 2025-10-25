@@ -1,0 +1,9 @@
+CREATE DATABASE company;
+
+CREATE TABLE IF NOT EXISTS employees (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INTEGER NOT NULL,
+    position VARCHAR(255) NOT NULL,
+    salary REAL NOT NULL
+);
